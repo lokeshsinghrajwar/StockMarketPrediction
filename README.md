@@ -10,9 +10,7 @@ Takes in 3 parameters:
  	1. kernel: type of SVM
  	2. C: penalty parameter of the error term
 	3. gamma: defines how far too far is.
-
-	Two things are required when using an SVR, a line with the largest minimum margin and a line that correctly separates as many instances as possible. Since we can't have both.
-	C determines how much we want the latter.
+Two things are required when using an SVR, a line with the largest minimum margin and a line that correctly separates as many instances as possible. Since we can't have both.C determines how much we want the latter.
 
 Next we make a polynomial SVR because in math folklore, the no free lunch theorem states that there are no guarantees for one optimization to work better than the other. So we'll try both.
 
