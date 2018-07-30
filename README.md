@@ -15,6 +15,6 @@ C determines how much we want the latter.<br>
 
 Next we make a polynomial SVR because in math folklore, the no free lunch theorem states that there are no guarantees for one optimization to work better than the other. So we'll try both.<br>
 
-Finally, we create one more SVR using a radial basis function. RBF defines similarity to be the Euclidian distance between two inputs.<br><br>
+Finally, we create one more SVR using a radial basis function. RBF defines similarity to be the Euclidian distance between two inputs.<br>
 
 The result is shown in Result.png, in which we can clearly see that RBF model covers the maximum points, thus predicts the most accurate price among the three models.
