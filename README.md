@@ -11,9 +11,9 @@ Takes in 3 parameters:<br>
  	2. C: penalty parameter of the error term. <br> 
 	3. gamma: defines how far too far is. <br> 
 Two things are required when using an SVR, a line with the largest minimum margin and a line that correctly separates as many instances as possible. Since we can't have both. <br> 
-C determines how much we want the latter.<br><br>
+C determines how much we want the latter.<br>
 
-Next we make a polynomial SVR because in math folklore, the no free lunch theorem states that there are no guarantees for one optimization to work better than the other. So we'll try both.<br><br>
+Next we make a polynomial SVR because in math folklore, the no free lunch theorem states that there are no guarantees for one optimization to work better than the other. So we'll try both.<br>
 
 Finally, we create one more SVR using a radial basis function. RBF defines similarity to be the Euclidian distance between two inputs.<br><br>
 
